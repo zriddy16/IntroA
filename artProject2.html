@@ -1,0 +1,68 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canvas Grid</title>
+  </head>
+  
+  <body>
+    
+    
+    <canvas id="myCanvas" style = "border: 1px solid #000000"></canvas>
+    <script type= "text/javascript">
+    //prompt
+    
+    
+    
+      var canvas = document.getElementById("myCanvas");
+      var MaxX= prompt("What is the width of your painting?");
+      var MaxY= prompt("What is the height of your painting?");
+      
+        canvas.height = MaxY;
+        canvas.width = MaxX
+      var ctx = canvas.getContext("2d");
+      
+      ctx.fillStyle = "black";
+      ctx.fillRect(MaxX * 0,MaxY * 0,MaxX,MaxY);
+      ctx.beginPath();
+      ctx.fillStyle = "white";
+      ctx.fillRect(MaxX * 0,MaxY * 0,MaxX * .25,MaxY * .35);
+     
+     ctx.beginPath();
+       ctx.fillStyle = "white";
+      ctx.fillRect(MaxX * 0,MaxY * .375,MaxX * .25,MaxY * .35);
+     
+      ctx.beginPath();
+       ctx.fillStyle = "blue";
+      ctx.fillRect(MaxX * 0,MaxY * .75,MaxX * .25,MaxY * .25);
+      
+      ctx.beginPath();
+       ctx.fillStyle = "red";
+      ctx.fillRect(MaxX * .275,MaxY * 0,MaxX * .725,MaxY * .725);
+      
+      ctx.beginPath();
+       ctx.fillStyle = "white";
+      ctx.fillRect(MaxX * .275,MaxY * .75,MaxX * .65,MaxY * .25);
+      
+      ctx.beginPath();
+       ctx.fillStyle = "white";
+      ctx.fillRect(MaxX * .95,MaxY * .75,MaxX * .05,MaxY * .1125);
+      
+      
+       ctx.beginPath();
+       ctx.fillStyle = "yellow";
+      ctx.fillRect(MaxX * .95,MaxY * .8875,MaxX * .05,MaxY * .1125);
+      
+       
+
+ 
+      
+      
+      
+      
+      
+      
+      
+      
+       </script>
+  </body>
+</html>
