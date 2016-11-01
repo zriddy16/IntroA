@@ -1,0 +1,57 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <title>Canvas Grid</title>
+  </head>
+  
+  <body>
+    
+    <canvas id="myCanvas" width="400" height="400"style = "border: 1px solid #000000"></canvas>
+    <script type= "text/javascript">
+      var canvas = document.getElementById("myCanvas");
+      var ctx = canvas.getContext("2d");
+      
+      ctx.fillStyle = "black";
+      ctx.fillRect(0,0,400,400);
+      ctx.beginPath();
+      ctx.fillStyle = "white";
+      ctx.fillRect(0,0,100,140);
+     
+     ctx.beginPath();
+       ctx.fillStyle = "white";
+      ctx.fillRect(0,150,100,140);
+     
+      ctx.beginPath();
+       ctx.fillStyle = "blue";
+      ctx.fillRect(0,300,100,100);
+      
+      ctx.beginPath();
+       ctx.fillStyle = "red";
+      ctx.fillRect(110,0,290,290);
+      
+      ctx.beginPath();
+       ctx.fillStyle = "white";
+      ctx.fillRect(110,300,260,100);
+      
+       ctx.beginPath();
+       ctx.fillStyle = "white";
+      ctx.fillRect(380,300,20,45);
+      
+       ctx.beginPath();
+       ctx.fillStyle = "yellow";
+      ctx.fillRect(380,355,20,45);
+      
+       
+
+ 
+      
+      
+      
+      
+      
+      
+      
+      
+       </script>
+  </body>
+</html>
